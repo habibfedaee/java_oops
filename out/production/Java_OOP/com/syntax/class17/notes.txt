@@ -1,0 +1,12 @@
+Types of variables
+
+in java there are 3 types of variables
+ 1. local (inside method or block)
+ 2. static (with keyword static)
+ 3. instance (inside class)
+
+when the information is expected to be different from object to object, we store that
+information in instance variables
+
+if we know that a value will stay the same for all the objects of a class, we create a
+static variable for information

@@ -1,0 +1,43 @@
+Recap of class 17
+Types of variable: 3: local, instance, static
+
+local variable: is declared inside a method or block of code
+    Pros:   takes less memory
+    Cons:   limited access & shorter life-time
+
+instance variable: is declared inside the body of a class.
+    Pros:   accessible everywhere,
+    Cons:   takes lots of memory,
+
+static variable: is declared inside the body of a class or inside a static method
+    Pros:   is declared once used everywhere, also take single memory location for all the objects of that class.
+    Cons:   can hold only one value for all the objects and stays even longer inside the memory than instance variables
+
+---------------------------------------------------------------------------------------
+Class 18
+Java Access Modifiers
+(public, private, protected, default)
+Access modifiers are keywords in java that defines from where a certain variable, method, class
+constructor etc. can be accessed.
+There are four types of access in java that we can define using 3 keywords.
+
+1, Private access modifier
+ when we use the private keyword with any of the variables, methods or classes these can only be
+ accessed within that class.
+
+2, Default access modifier
+ it is applied when we don't use any other access modifiers to variables, methods, or classes.
+ These variables, methods, or classes can be accessed by other classes or methods within the same
+ package.
+
+3, Protected access modifier
+ when Protected access modifier keyword is applied, class members(variables, methods, etc.) can
+ be accessed from other packages but only in the classes that participate in inheritance.
+
+4, Public access modifier
+  public access means class members and classes can be accessed from anywhere inside that project.
+
+---------Note!
+static methods can access other static methods and fields without needing an object of that
+class or the class name if they are inside the same class.
+
