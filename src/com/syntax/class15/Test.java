@@ -1,8 +1,6 @@
 package com.syntax.class15;
 
-import java.util.Locale;
-
-public class test {
+public class Test {
 
     String toLower(String str){
         return str.toLowerCase();

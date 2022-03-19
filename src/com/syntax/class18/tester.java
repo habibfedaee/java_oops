@@ -1,9 +1,11 @@
 package com.syntax.class18;
 
+import java.util.Scanner;
+
 public class tester {
-    public static void main(String[] args) {
-        Task1 t1 = new Task1();
-        int[] array = {1, 2, 3, 4, 5};
-        System.out.println(t1.calculateSum(array)); // works
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        String str = input.nextLine();
+        System.out.println("The first 3 letters of "+str+" is "+str.substring(0,3));
     }
 }

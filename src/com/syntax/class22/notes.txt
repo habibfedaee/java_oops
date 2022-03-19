@@ -1,0 +1,70 @@
+RECAP: of Class 21
+=====================================================================================================
+Inheritance in Java:
+It is a mechanism in java through which a child class gets the properties and methods from a parent class.
+
+Benefits:
+ 1, Saves time to code
+ 2, Less code duplication in the project
+ 3, execution time is faster
+
+Disadvantages:
+ >> Classes are tightly coupled (if we change something in parent class, it will affect the child class)
+
+Types of inheritance: (4), in java 3
+ 1, Single type inheritance
+ 2, Hierarchical inheritance
+ 3, Multi-level inheritance
+ 4, Multiple inheritance --> not support in java
+Single inheritance:
+ In single inheritance we have only one child and one parent class. or only two classes participate
+ in inheritance one as child and one as parent.
+Example------
+public class A{
+ // codes in parent class
+}
+
+public class B extends A{
+  // codes in child class
+}--------------
+
+Hierarchical inheritance:
+  In hierarchical inheritance we have a single parent class and multiple child classes.
+Example ----------
+class Parent {
+ // codes
+}
+class Child1 extends Parent{
+ // codes
+}
+class Child2 extends Parent{
+ // codes
+}
+class Child3 extends Parent{
+ // codes
+} ----------------
+
+Multi-level inheritance:
+  We have multiple levels of inheritance for example if we have classes A, B, and C. Class C will be
+  inherited from B and B will be inherited from A.
+Example ----------
+Class A {
+}
+Class B extends A{
+}
+Class C extends B{
+}------------------
+--------------------------------------------------
+>> Super Keyword:
+Super keyword is like the 'this' keyword. It refers to the parent class object. For example, we can
+access fields, methods or constructors of parent class inside the child class using the 'super'
+keyword.
+
+
+
+=====================================================================================================
+Class 22: (03-08-2022)
+>> Method Overriding and Method Overloading:
+Method overloading is a way to create similar named methods with different (parameters), different
+sequence of parameters, or different data types of parameters inside a class.
+

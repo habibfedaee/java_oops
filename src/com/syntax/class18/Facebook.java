@@ -14,7 +14,13 @@ public class Facebook {
     }
 
 
-    public int getAge() {
-        return age;
+    public int getAge(String password) {
+        if(password.equals("haha")){
+            return age;
+        }else {
+            //System.out.println("Nice try!");
+            return -1;
+        }
+
     }
 }
