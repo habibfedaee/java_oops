@@ -1,0 +1,37 @@
+RECAP:
+
+Constructors in Java:
+ >> Constructors in java are special block of code similar to a method that initialize the
+ objects of a class.
+
+Rules:
+ 1, They don't have return types not even void
+ 2, Name of the constructor must be the same as name of the class
+ 3, Constructor can't have non access modifiers like static final etc.
+ 4, we can use the access modifiers like public private, protected with constructors
+ 5, if we do not write a constructor in a class a default constructor will be provided by compiler
+ 6, we can have multiple constructor in a class but their number of arguments sequence of argument or
+    type of arguments should be different.
+ 7, If we have multiple constructors then Java will decide which constructor to call based on
+    the parameters we pass.
+
+THIS KEYWORD:
+It is a reserved keyword in java that we can use to refer to instance variables, methods or
+constructors of a class.
+ 1, 'This' keyword is used to distinguish instance variables with local variables
+ 2, we can use 'this' keyword to call the constructor of a class inside another constructors
+ 3, we can use the 'this' keyword to call the methods of a class.
+
+==============================================================================================
+Class 20
+INHERITANCE:
+Inheritance is a mechanism wherein a new class is derived from an existing class. In Java,
+classes may inherit or acquire the properties and methods of other classes. A class derived
+from another class is called a subclass, whereas the class from which a subclass is derived
+is called a superclass.
+
+The idea behind inheritance in java is that you can create new classes that are built upon existing classes.
+when we inherit from an existing class, we can reuse methods and fields of parent class, and
+we can add new methods and fields also.
+
+'extends' is the keyword that is used to inherit from an upper or parent class.

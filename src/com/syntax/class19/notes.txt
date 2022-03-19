@@ -1,0 +1,31 @@
+RECAP of class 18
+>> Access Modifiers allow us to control the visibility of class members (fields, methods, constructors, etc.)
+and classes itself in java.
+
+>> There are 4 access levels and there are 3 keywords for them that we use to define these access
+level. Fourth level is applied when we don't use any access modifier keyword.
+>> Most restricted to less restricted:
+ 1, Private (The code is only accessible within the declared class)
+ 2, Default (The code is only accessible in the same package. no keyword means default access level)
+ 3, Protected (The code is accessible in the same package and subclasses.)
+ 4, Public (accessible within the same project everywhere)
+
+>> Rules:
+ 1, We should always prefer private access modifier for the fields. Because fields contain the data
+ and the methods of your class might that data to perform certain task. so, certain data with the
+ certain code should be secure and working forever. If we don't perform sanity checks(*) before setting
+ the values to these fields our classes and methods might misbehave also the access of the data should
+ be restricted so that not every one can access the data.
+ (*) A sanity check or sanity test is a basic test to quickly evaluate whether a claim or the result
+ of a calculation can possibly be true. It is a simple check to see if the produced material is
+ rational (that the material's creator was thinking rationally, applying sanity).
+
+ 2, We can't use access modifiers with local variables.
+ ------------------------------------------------------------------------------------------------
+03/05/2022
+>> Constructors:
+ Constructors in java allow us to set the values of the fields of a class.
+
+ Constructors can be declared multiple times but with different or just one empty parameter list
+
+>> This Keyword:
