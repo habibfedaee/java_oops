@@ -1,0 +1,34 @@
+Class 28:
+Recap:
+    Wrapper classes:
+    They are object types for all primitive data types. When we use the wrapper classes we get all the
+    benefits of classes and objects. for example, we can have methods. Also, generics works with only
+    classes.
+
+>> Boxing in Wrapper Classes:
+   Boxing happens when we convert a primitive to a corresponding wrapper type.
+   e.g.
+   int num=10;
+   Integer num2 = Integer(num); // boxing
+   Integer num4 = 100; // auto boxing
+
+>> Unboxing Wrapper classes to Primitive type:
+   Unboxing happens when we convert a wrapper object to a corresponding primitive type.
+   e.g.
+   Integer num2 = new Integer(20);
+   int num = num2.intValue(); // unboxing
+   int num3 = num2; //auto unboxing
+
+>> List:
+   List (is an interface in collections framework which is implemented by two classes, Arraylist and
+   LinkedList).
+   1, we can store the duplicate values in lists
+   2, insertion order is maintained
+
+>> When to use ArrayList?
+   If most of the operations are reading and storing new data and not shifting or changing the position
+   of data then we should go with array list.
+
+>> When to use LinkedList?
+   When most of the operations are related to changing the position of data or related to data shifting
+   then we should go with LinkedList.
