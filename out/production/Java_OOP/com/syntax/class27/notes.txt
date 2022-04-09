@@ -1,0 +1,11 @@
+Collections Framework in Java:
+==============================
+Collection of classes that help us manage and manipulate data in a better way.
+
+1, ArrayList
+    1.1, This class has many built-in methods like add(), remove(), clear(), etc.
+    1.2, Dynamic and can adjust their size at run time.
+    Syntax:
+     ArrayList<Type> nameOfList = new ArrayList<>();
+    ArrayList --> name of the class
+    <> --> diamond operator
